@@ -3,11 +3,11 @@ import logo from "../assets/logo.png"
 const NAVBAR_CLASSES = {
   container: "mx-auto flex items-center justify-between",
   logo: "h-9 mr-2",
-  menuLink: "hover:text-blue-500 p-3",
+  menuLink: "hover:text-blue-500 p-3 text-sm",
   contactBtn:
-    "border border-blue-500 text-blue-500 px-4 py-2 font-semibold rounded-full hover:bg-blue-500 hover:text-white transition",
+    "border border-blue-500 text-blue-500 px-6 py-2 font-semibold rounded-full hover:bg-blue-500 hover:text-white transition",
   demoBtn:
-    "bg-blue-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-blue-600 transition",
+    "bg-blue-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-600 transition",
 }
 
 const MENU_ITEMS = [
