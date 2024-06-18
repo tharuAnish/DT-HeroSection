@@ -11,7 +11,10 @@ const sharedClasses = {
 
 const HeroLeft = () => {
   return (
-    <div className="flex flex-col justify-center pl-7 h-screen ">
+    <div
+      className="flex flex-col justify-center pl-7  "
+      style={{ height: "calc(100vh - 74px)" }}
+    >
       <Welcome />
       <HeroText />
       <CTA />
@@ -22,7 +25,7 @@ const HeroLeft = () => {
 const Welcome = () => {
   return (
     <div
-      className={`relative border-2 ${sharedClasses.blueBorder} w-fit border-w left-5 px-5 py-[6px] flex items-center`}
+      className={`relative border-2 ${sharedClasses.blueBorder} w-fit border-w left-5 px-6 py-[6px] flex items-center`}
     >
       <div
         className={`absolute -top-[6px] -left-[6px] w-2 h-2 ${sharedClasses.blueBackground}  rounded-full`}
@@ -50,18 +53,18 @@ const Welcome = () => {
 
 const HeroText = () => {
   return (
-    <div className="py-10">
+    <div className="py-8">
       <div className="flex items-center gap-4">
         <h1 className="font-bold text-5xl text-black">An A-Z OPD</h1>
         <img className="h-11" src={HealthCare} alt="HealthCare" />
       </div>
 
-      <h2 className="font-bold text-5xl py-[10px] text-blue-700">
+      <h2 className="font-bold text-5xl py-[9px] text-blue-700">
         Automation Software
       </h2>
       <h2 className="font-bold text-5xl">for Your Practice.</h2>
 
-      <p className="text-zinc-600 pt-5 font-semibold ">
+      <p className="text-zinc-600 pt-6 font-semibold ">
         Helping Clinics & Hospitals Staffs to Operate Efficiently.
       </p>
     </div>
@@ -70,17 +73,17 @@ const HeroText = () => {
 
 const CTA = () => {
   return (
-    <div className="pt-1">
-      <div className="flex space-x-3 basis-1/4 ">
+    <div className="pt-2">
+      <div className="flex space-x-4 basis-1/4 ">
         <a
           href="#"
-          className="bg-blue-500 text-white px-7 py-2 rounded-full font-semibold hover:bg-blue-600 transition"
+          className="bg-gradient-to-r from-blue-800 to-sky-400 text-white px-7 py-2 rounded-full font-semibold transition hover:from-blue-900 hover:to-sky-500 hover:scale-[1.03] hover:duration-300"
         >
           Start your free trial today!
         </a>
         <a
           href="#"
-          className="flex gap-2 border border-blue-500 text-blue-500 px-7 py-2 font-semibold rounded-full hover:bg-blue-500 hover:text-white transition"
+          className="flex gap-[6px] border border-blue-500 text-blue-500 px-7 py-2 font-semibold rounded-full transition hover:border-blue-700 hover:text-blue-700 hover:scale-[1.03] hover:duration-300"
         >
           <img src={VideoPlayer} alt="Video Player" />
           <span>Watch Video</span>
