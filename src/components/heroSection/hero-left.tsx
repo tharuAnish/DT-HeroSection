@@ -25,7 +25,7 @@ const HeroLeft = () => {
 const Welcome = () => {
   return (
     <div
-      className={`relative border-2 ${sharedClasses.blueBorder} w-fit border-w left-5 px-6 py-[6px] flex items-center`}
+      className={`relative border cursor-crosshair ${sharedClasses.blueBorder} w-fit border-w left-5 px-6 py-[6px] flex items-center`}
     >
       <div
         className={`absolute -top-[6px] -left-[6px] w-2 h-2 ${sharedClasses.blueBackground}  rounded-full`}

@@ -8,7 +8,7 @@ const NAVBAR_CLASSES = {
   contactBtn:
     "border border-blue-500 text-blue-500 px-6 py-2 font-semibold rounded-full hover:shadow-lg transition hover:duration-300",
   demoBtn:
-    "bg-gradient-to-r from-blue-800 to-sky-400 text-white px-6 py-2 rounded-full font-semibold hover:shadow-xl hover:bg-blue-600 transition hover:duration-300 hover:from-blue-900 hover:to-sky-500 ",
+    "bg-gradient-to-r from-blue-800 to-sky-400 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:bg-blue-600 transition hover:duration-300 hover:from-blue-900 hover:to-sky-500 ",
 }
 
 const MENU_ITEMS = [
