@@ -2,13 +2,13 @@ import logo from "../assets/logo.png"
 
 const NAVBAR_CLASSES = {
   container: "mx-auto flex items-center justify-between",
-  logo: "h-9 mr-2 cursor-pointer",
+  logo: "h-[35px] mr-2 cursor-pointer",
   menuLink:
     "hover:text-blue-500 p-3 text-sm hover:underline transition hover:duration-100",
   contactBtn:
-    "border border-blue-500 text-blue-500 px-6 py-2 font-semibold rounded-full hover:shadow-lg transition hover:duration-300",
+    "border border-blue-500 text-blue-500 px-6 py-[7px] font-semibold rounded-full hover:shadow-lg transition hover:duration-300",
   demoBtn:
-    "bg-gradient-to-r from-blue-800 to-sky-400 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:bg-blue-600 transition hover:duration-300 hover:from-blue-900 hover:to-sky-500 ",
+    "bg-gradient-to-r from-blue-800 to-sky-400 text-white px-6 py-[7px] rounded-full font-semibold hover:shadow-lg hover:bg-blue-600 transition hover:duration-300 hover:from-blue-900 hover:to-sky-500 ",
 }
 
 const MENU_ITEMS = [
@@ -23,7 +23,7 @@ const MENU_ITEMS = [
 
 const Navbar = () => {
   return (
-    <nav className="p-4 wrapper">
+    <nav className="p-4 wrapper ">
       <div className={NAVBAR_CLASSES.container}>
         <div className="flex items-center basis-1/4">
           <img src={logo} alt="Logo" className={NAVBAR_CLASSES.logo} />

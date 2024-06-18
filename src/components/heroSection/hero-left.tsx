@@ -77,7 +77,7 @@ const CTA = () => {
       <div className="flex space-x-4 basis-1/4 ">
         <a
           href="#"
-          className="bg-gradient-to-r from-blue-800 to-sky-400 text-white px-7 py-2 rounded-full font-semibold transition hover:from-blue-900 hover:to-sky-500 hover:scale-[1.03] hover:duration-300"
+          className="bg-gradient-to-r from-blue-800 to-sky-400 text-white px-7 py-2 rounded-full font-semibold transition  hover:scale-[1.03] hover:duration-300"
         >
           Start your free trial today!
         </a>
